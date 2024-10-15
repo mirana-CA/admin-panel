@@ -151,11 +151,17 @@ aside {
   color: rgba(255, 255, 255, 0.5);
   position: relative;
 }
+.aside_container_content p a {
+  color: rgba(255, 255, 255, 0.5);
+}
 .aside_container_content:hover {
 color: #fff;
 cursor: pointer;
 }
-
+.aside_container_content p a:hover {
+  color: #fff;
+  cursor: pointer;
+  }
 
 .aside_container_content i {
   color: rgba(255, 255, 255, 0.25);
