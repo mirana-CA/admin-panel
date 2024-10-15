@@ -39,13 +39,11 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .header_right_side form {
   position: relative;
   display: flex;
-
 }
 
 .header_right_side form input {
@@ -57,10 +55,9 @@ header nav {
   line-height: 1.5;
   color: #212529;
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.175) solid #ced4da;
+  border: 1px solid solid #ced4da;
   border-radius: 6px 0 0 6px;
   outline: none;
-
 }
 
 .header_right_side form button {
@@ -75,7 +72,6 @@ header nav {
   z-index: 2;
   border: 1px solid rgba(0, 0, 0, 0.175) solid #0d6efd;
   border-radius: 0 6px 6px 0;
-
 }
 
 .header_right_side i {
@@ -102,7 +98,7 @@ header nav {
   display: none;
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width: 1000px) {
   .responsive_menu {
     display: block;
   }
@@ -110,11 +106,9 @@ header nav {
   .header_left_side i {
     display: none;
   }
-
 }
 
-@media only screen and (max-width:766px) {
-
+@media only screen and (max-width: 766px) {
   .header_right_side form {
     display: none;
   }
@@ -122,7 +116,6 @@ header nav {
   .header_left_side h2 {
     padding-right: 0px;
   }
-
 }
 
 /* ASIDE START  */
@@ -132,7 +125,6 @@ aside {
   margin-top: 60px;
   height: calc(100% - 60px);
   width: 225px;
-
 }
 
 .aside_container_title {
@@ -140,7 +132,6 @@ aside {
   font-size: 12px;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.25);
-
 }
 
 .aside_container_content {
@@ -155,13 +146,13 @@ aside {
   color: rgba(255, 255, 255, 0.5);
 }
 .aside_container_content:hover {
-color: #fff;
-cursor: pointer;
+  color: #fff;
+  cursor: pointer;
 }
 .aside_container_content p a:hover {
   color: #fff;
   cursor: pointer;
-  }
+}
 
 .aside_container_content i {
   color: rgba(255, 255, 255, 0.25);
@@ -174,7 +165,7 @@ cursor: pointer;
   top: 20px;
   font-size: 20px;
 }
-.aside_footer{
+.aside_footer {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -193,14 +184,12 @@ cursor: pointer;
   }
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width: 1000px) {
   aside {
     animation-name: asideClose;
     animation-duration: 1000ms;
     display: none;
   }
-
-
 }
 
 /* ASIDE END  */
@@ -208,7 +197,7 @@ cursor: pointer;
 /* TABLE START  */
 #table_section {
   margin-left: 225px;
-  padding:60px 24px 0;
+  padding: 60px 24px 0;
 }
 
 #table_section h1 {
@@ -220,7 +209,7 @@ cursor: pointer;
 }
 
 .table_section_location {
-margin-bottom: 24px;
+  margin-bottom: 24px;
   color: #6c757d;
 }
 
@@ -228,37 +217,37 @@ margin-bottom: 24px;
   text-decoration: underline;
   color: #0d6efd;
 }
-.table_section_note{
+.table_section_note {
   padding: 16px;
-  border: 1px  solid rgba(0, 0, 0, 0.175);
+  border: 1px solid rgba(0, 0, 0, 0.175);
   border-radius: 6px;
   max-width: 100%;
 }
-.table_section_note a{
+.table_section_note a {
   text-decoration: underline;
   color: #0d6efd;
 }
-.table_container{
+.table_container {
   margin-top: 32px;
-  border: 1px solid rgba(0, 0, 0, 0.175) ;
+  border: 1px solid rgba(0, 0, 0, 0.175);
   border-radius: 6px;
 }
-.table_heading{
-    color: #212529;
-    background-color: rgba(0, 0, 0, 0.03);
-    padding: 8px 16px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.175);
+.table_heading {
+  color: #212529;
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.175);
 }
-.table_per_page{
+.table_per_page {
   padding: 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.table_per_page input{
+.table_per_page input {
   display: block;
   padding: 6px 12px;
   font-size: 16px;
@@ -266,121 +255,116 @@ margin-bottom: 24px;
   line-height: 1.5;
   color: #212529;
   background-color: #fff;
-  border: 1px  solid #ced4da;
+  border: 1px solid #ced4da;
   border-radius: 6px;
   outline: none;
 }
-.table_per_page__left_side{
+.table_per_page__left_side {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.table_per_page__left_side select{
-padding: 8px 18px;
-border: 1px solid rgba(0, 0, 0, 0.175);
-border-radius: 6px;
-outline: none;
-
+.table_per_page__left_side select {
+  padding: 8px 18px;
+  border: 1px solid rgba(0, 0, 0, 0.175);
+  border-radius: 6px;
+  outline: none;
 }
 
-table{
+table {
   max-width: calc(100% - 48px);
   width: 100%;
   border-collapse: collapse;
   margin: 0 24px;
-  
 }
-table td,table th{
+table td,
+table th {
   text-align: start;
   border: 1px solid rgba(0, 0, 0, 0.175);
   border-collapse: collapse;
   padding: 10px;
   font-size: 14px;
 }
-th div{
+th div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #212529;
   cursor: pointer;
 }
-th div i{
+th div i {
   color: rgba(0, 0, 0, 0.175);
 }
-.table_ending{
+.table_ending {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 24px;
 }
 .pages_container {
-border-radius: 6px;
+  border-radius: 6px;
 }
-.pages_container button{
-padding: 8px 12px;
-color: #0d6efd;
-border: 1px solid #ced4da;
-background-color: #fff;
-margin: -3px; 
-font-size: 16px;
-cursor: pointer;
-transition-duration: 200ms;
+.pages_container button {
+  padding: 8px 12px;
+  color: #0d6efd;
+  border: 1px solid #ced4da;
+  background-color: #fff;
+  margin: -3px;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 200ms;
 }
-.pages_container button:hover{
-
+.pages_container button:hover {
   background-color: #e9ecef;
-  }
-.pages_last_elem{
+}
+.pages_last_elem {
   border-radius: 0 6px 6px 0;
 }
-.pages_first_elem{
+.pages_first_elem {
   border-radius: 6px 0 0 6px;
 }
 
-
 /* TABLE END  */
 
-footer{
+footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 24px;
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
   margin-left: 225px;
   color: #6c757d;
   font-size: 14px;
   margin-top: 24px;
 }
- footer div a{
+footer div a {
   color: #0d6efd;
   text-decoration: underline;
 }
-footer div a:hover{
+footer div a:hover {
   color: #0a58ca;
   text-decoration: underline;
-
 }
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width: 1000px) {
   #table_section {
     margin-left: 0;
   }
-  footer{
+  footer {
     margin-left: 0;
   }
-
 }
-@media only screen and (max-width:570px) {
-  .table_per_page{
+@media only screen and (max-width: 570px) {
+  .table_per_page {
     flex-direction: column;
     gap: 20px;
     align-items: start;
   }
-  .table_ending{
+  .table_ending {
     flex-direction: column;
     gap: 20px;
     align-items: start;
   }
-  .table_main_container{
+  .table_main_container {
     overflow-x: scroll;
   }
 }
